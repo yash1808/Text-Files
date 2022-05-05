@@ -1,0 +1,71 @@
+
+/**
+ * Importing junit api assertions
+ */
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/**
+ * class FirstJunitTestTest for doing Junit tests on simple arithmetic operations
+ * @author Rhythm
+ *
+ */
+class FirstJunitTestTest {
+	/*@Test
+	void test() {
+		fail("Not yet implemented");
+	}*/
+	/**
+	 * Test is to find the addition of the given elements
+	 * The calculated value is stored in the total data member
+	 * The expected value is given for the test
+	 * Function assertEquals is used to perform the test
+	 */
+	@Test
+	void Test() {
+		FirstJunitTest t = new FirstJunitTest();
+		int total = t.add(3,2);
+		int expected = 5;
+		assertEquals(expected, total);
+	}
+	/**
+	 * Test1 is to find the subtraction of the given elements
+	 * The calculated value is stored in the total data member
+	 * The expected value is given for the test
+	 * Function assertEquals is used to perform the test
+	 */
+	@Test
+	void Test1() {
+		FirstJunitTest t1 = new FirstJunitTest();
+		int total = t1.sub(3, 2);
+		int expected = 1;
+		assertEquals(expected, total);
+	}
+	/**
+	 * Test2 is to find the multiplication of the given elements
+	 * The calculated value is stored in the total data member
+	 * The expected value is given for the test
+	 * Function assertEquals is used to perform the test
+	 */
+	@Test
+	void Test2() {
+		FirstJunitTest t2 = new FirstJunitTest();
+		int total = t2.multi(3, 2);
+		int expected = 6;
+		assertEquals(expected, total);
+	}
+	/**
+	 * Test3 is to find the division of the given elements
+	 * The calculated value is stored in the total data member
+	 * The expected value is given for the test
+	 * Function assertEquals is used to perform the test
+	 */
+	@Test
+	void Test3() {
+		FirstJunitTest t3 = new FirstJunitTest();
+		double total = t3.div(3, 2);
+		double expected = 1.5;
+		assertEquals(expected, total);
+	}
+}

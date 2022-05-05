@@ -1,0 +1,43 @@
+/**
+ * Class FirstJnuitTest has all the calculations for the testing of arithmetic operations done in the FirstJunitTestTest class
+ * @author Rhythm
+ *
+ */
+public class FirstJunitTest {
+	/**
+	 * Method add takes the below parameters to do addition of the given elements
+	 * @param a given in the FirstJunitTestTest class while calling this method
+	 * @param b given in the FirstJunitTestTest class while calling this method
+	 * @return a + b
+	 */
+	public int add (int a, int b) {
+		return a + b;
+	}
+	/**
+	 * Method sub takes the below parameters to do subtraction of the given elements
+	 * @param a given in the FirstJunitTestTest class while calling this method
+	 * @param b given in the FirstJunitTestTest class while calling this method
+	 * @return a - b
+	 */
+	public int sub (int a, int b) {
+		return a - b;
+	}
+	/**
+	 * Method multi takes the below parameters to do multiplication of the given elements
+	 * @param a given in the FirstJunitTestTest class while calling this method
+	 * @param b given in the FirstJunitTestTest class while calling this method
+	 * @return a * b
+	 */
+	public int multi (int a, int b) {
+		return a * b;
+	}
+	/**
+	 * Method div takes the below parameters to do division of the given elements
+	 * @param a given in the FirstJunitTestTest class while calling this method
+	 * @param b given in the FirstJunitTestTest class while calling this method
+	 * @return a / b
+	 */
+	public double div (double a, double b) {
+		return a / b;
+	}
+}
